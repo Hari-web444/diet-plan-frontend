@@ -14,3 +14,4 @@ expo start
 - To build APK, follow Expo docs (EAS or classic build).
 # diet-plan-frontend
 # builddiet
+# builddiet
