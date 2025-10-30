@@ -30,7 +30,14 @@ export default function App() {
   });
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return (
+      <LinearGradient
+        colors={["rgb(5 ,86, 139)", "rgb(0 ,52, 85)"]}
+        style={{ flex: 1, justifyContent: "center", alignItems: "center" }}
+      >
+        <Text style={{ color: "#fff", fontSize: 18 }}>Loading...</Text>
+      </LinearGradient>
+    );
   }
 
   return (

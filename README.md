@@ -13,3 +13,4 @@ expo start
 - API base in App uses `http://10.0.2.2:8080` (Android emulator). Change to your backend URL when deployed.
 - To build APK, follow Expo docs (EAS or classic build).
 # diet-plan-frontend
+# builddiet
